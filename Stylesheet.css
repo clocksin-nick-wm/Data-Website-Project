@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+#main {
+    color: black;
+}
+
+#nav {
+    float: left;
+    border-style: solid;
+    color: white;
+    background-color: black;
+    height: 450px;
+    width: 100px;
+    text-align: center;
+}
+
+#chart_div{
+    float: right;
+}
+

@@ -4,7 +4,7 @@ google.setOnLoadCallback(drawBasic);
 function drawBasic() {
 
     var data = google.visualization.arrayToDataTable([
-        ['Music', 'Sales',],
+        ['Music', 'Sales'],
         ['Streaming', 1033],
         ['Download', 2875],
         ['Ringtone', 145],
@@ -12,7 +12,8 @@ function drawBasic() {
 
     var options = {
         title: 'Music Sales of 2012',
-        chartArea: {width: '50%'},
+        width: 900,
+        height: 200,
         hAxis: {
             title: 'Music Sales 2012 (millions)',
             minValue: 0
