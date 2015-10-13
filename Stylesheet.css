@@ -1,9 +1,12 @@
 h1 {
     text-align: center;
+    text-indent: 50px;
 }
 
 #main {
     color: black;
+    background-color: lightgray;
+    text-indent: 50px;
 }
 
 #nav {
@@ -16,10 +19,16 @@ h1 {
     text-align: center;
 }
 
+
 #chart_div{
     float: right;
+    background-color: darkgray;
 }
 
 a {
     color: white;
+}
+
+body {
+    background-color: lightgray;
 }

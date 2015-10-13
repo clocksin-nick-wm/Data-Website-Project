@@ -12,7 +12,7 @@ function drawBasic() {
 
     var options = {
         title: 'Music Sales of 2012',
-        width: 1767,
+        width: 1300,
         height: 200,
         hAxis: {
             title: 'Music Sales 2012 (millions)',
