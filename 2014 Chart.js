@@ -3,6 +3,8 @@ google.setOnLoadCallback(drawBasic);
 
 function drawBasic() {
 
+    /*The variable is the data represented in the form as comparing the different forms of sale
+     over the year 2014*/
     var data = google.visualization.arrayToDataTable([
         ['Music', 'Sold'],
         ['Streaming', 1867],
