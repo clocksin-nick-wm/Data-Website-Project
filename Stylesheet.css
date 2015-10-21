@@ -33,5 +33,16 @@ a {
 }
 
 body {
+    width: 1024px;
+    height: 768px;
     background-color: lightgray;
+}
+
+#table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 1300px;
+    height: 250px;
+    text-align: center;
+    align-content: center;
 }

@@ -24,25 +24,49 @@
     <div id="pictures">
         <table style="align-content: center">
             <tr>
-                <td><img div id="1" src="iTunes.png" height="100px" width="100px"></td>
-                <td><img src="Spotify.jpg" width="150px" height="75px"></td>
-                <td><img src="Xbox.jpg" height="100px" width="100px"></td>
+                <td><img id="1" src="iTunes.png" height="100px" width="100px"></td>
+                <td><img id="2" src="Spotify.jpg" width="150px" height="75px"></td>
+                <td><img id="3" src="Xbox.jpg" height="100px" width="100px"></td>
             </tr>
             <tr>
-                <td><img src="Pandora.jpg" width="150px" height="75px"></td>
-                <td><img src="Zunw.svg" height="100px" width="150px"></td>
-                <td><img src="unnamed.png" width="100" height="100"></td>
+                <td><img id="4" src="Pandora.jpg" width="100px" height="110px"></td>
+                <td><img id="5" src="Zune.jpg" height="100px" width="100px"></td>
+                <td><img id="6" src="unnamed.png" width="100" height="100"></td>
             </tr>
             <tr>
-                <td><img src="The_new_logo_of_Rhapsody.jpg" height="100px" width="175"></td>
-                <td><p style="text-align: center"><img src="slacker-logo.jpg" height="100" width="100"></p></td>
-                <td><img src="Amazon.jpg" height="100px" width="175px"></td>
+                <td><img id="7" src="The_new_logo_of_Rhapsody.jpg" height="100px" width="175"></td>
+                <td><p style="text-align: center"><img id="8" src="slacker-logo.jpg" height="100" width="100"></p></td>
+                <td><img id="9" src="Amazon.jpg" height="100px" width="175px"></td>
             </tr>
         </table>
         <script src="jquery1.js"></script>
         <script>
-            $(document).ready(function(){
-                $("#1").attr('src', "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0CAcQjRxqFQoTCKGA7aWI0sgCFQ_MYwod4dAFcw&url=http%3A%2F%2Fanimalia-life.com%2Fanimal-collection%2Fanimal-collection-3.html&psig=AFQjCNFBgcGFob9-YFMfr_X5uNp0DOKVCQ&ust=1445465379727409&cad=rja");
+            $("#1").click(function(){
+                $("#1").attr('src', "iTunes1.png").width(125);
+            });
+            $("#2").click(function(){
+                $("#2").attr('src', "Spotify1.png");
+            });
+            $("#3").click(function(){
+                $("#3").attr('src', "Zune.jpg");
+            });
+            $("#4").click(function(){
+                $("#4").attr('src', "Pandora 1.png").width(150)
+            });
+            $("#5").click(function(){
+               $("#5").attr('src', "Xbox.jpg")
+            });
+            $("#6").click(function(){
+               $("#6").attr('src', "iHeart 1.png")
+            });
+            $("#7").click(function(){
+                $("#7").attr('src', "Rhapsody1.png")
+            });
+            $("#8").click(function(){
+                $("#8").attr('src', "Slacker1.jpg")
+            });
+            $("#9").click(function(){
+                $("#9").attr('src', "Amazon1.jpg").width(200)
             });
         </script>
     </div>
